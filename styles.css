@@ -1,0 +1,227 @@
+/*Azzam Alghamdi 2141236*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.Cointener {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 100px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 18px 1px 22px 20px black;
+}
+
+.Cointener .left-side {
+  position: relative;
+  background-color: dodgerblue;
+  padding: 40px;
+}
+
+.photo-and-Me {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid black;
+}
+
+.photo-and-Me .AL3sl-Azzam {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 15%;
+  overflow: hidden;
+}
+.photo-and-Me h2 {
+  font-size: 30px;
+  font-weight: 650;
+}
+.photo-and-Me h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ContacInfo {
+  padding-top: 25px;
+}
+
+.ContacInfo h2 {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 600;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ContacInfo ul {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.link {
+  /* font-size: 15px; */
+  color: black;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.education-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.education h3 {
+  padding-top: 20px;
+  padding-bottom: 2px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Skills-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.lang-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.heghit-left-side {
+  width: 100%;
+  height: 30%;
+}
+
+.Cointener .right-side {
+  position: relative;
+  background-color: white;
+  /* padding: 40px; */
+}
+
+.Cointener-right-side {
+  background-color: dimgrey;
+  width: 100%;
+  height: 20%;
+}
+.About-Me {
+  padding: 20px;
+}
+.contact-me-text{
+
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: bolder;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.About-Me-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.experience {
+  padding: 20px;
+}
+
+.experience-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.experience1,
+.experience2,
+.experience3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Certificate-text,
+.Project-text {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  font-weight: 900;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Certificates,
+.Projects {
+  padding-left: 25px;
+}
+
+@media only screen and (max-width: 992px) {
+  .inside_project {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .inside_project {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .icon-container {
+    width: 150px;
+    height: 150px;
+  }
+}
