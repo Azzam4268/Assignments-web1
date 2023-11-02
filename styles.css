@@ -220,10 +220,10 @@ body {
   }
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 375px) {
   .icon-container {
     
-    width: 200px;
-    height: 220px;
+    width: 150px;
+    height: 150px;
   }
 }
