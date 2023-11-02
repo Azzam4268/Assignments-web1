@@ -206,7 +206,7 @@ body {
 }
 
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 992px) {
   .inside_project {
     display: flex;
     flex-flow: column;
@@ -220,7 +220,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 368px) {
+@media only screen and (max-width: 576px) {
   .icon-container {
     
     width: 240px;
